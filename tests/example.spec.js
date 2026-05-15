@@ -9,7 +9,7 @@ test('has title', async ({ page }) => {
 });
 // test case2
 test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://wwws.airfrance.fr/');
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
